@@ -14,23 +14,23 @@ class Students extends Component {
       students: [
         {
           id: 1,
-          fristName: "Acror",
-          lastName: "Eshnazarov",
+          fristName: "Abror",
+          lastName: "Mansurov",
           group: "+998931461602",
           doesWork: true,
         },
         {
           id: 2,
-          fristName: "Sabrina",
-          lastName: "Botayeva",
-          group: "+998902151566",
+          fristName: "Guli",
+          lastName: "Umarova",
+          group: "+99890215767",
           doesWork: false,
         },
         {
           id: 3,
-          fristName: "Marjona",
-          lastName: "Bobobekova",
-          group: "+998900343334",
+          fristName: "Salmon",
+          lastName: "Akbarov",
+          group: "+998900343877",
           doesWork: false,
         },
       ],
@@ -143,10 +143,11 @@ class Students extends Component {
               value={search}
               onChange={handleSearchChange}
             />
-            
+
             <button
               className="btn btn-outline-success w-auto"
-              onClick={openAddModal}>
+              onClick={openAddModal}
+            >
               Add
             </button>
           </ButtonGroup>
